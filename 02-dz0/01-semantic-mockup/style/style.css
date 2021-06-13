@@ -1,0 +1,32 @@
+h1 {
+    margin: 0;
+}
+
+header {
+    background-color: #ffb6b9;
+}
+nav {
+    background-color: #fae3d9;
+    padding: 10px;
+}
+nav > a {
+    margin-right: 10px;
+}
+main {
+    background-color: #bbded6;
+    padding: 10px;
+}
+article {
+    background-color: #8ac6d1;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+footer {
+    background-color: #ffb6b9;
+}
+
+header,
+nav,
+footer {
+    text-align: center;
+}
