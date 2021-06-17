@@ -1,74 +1,51 @@
 /* Стилизация кнопки */
 
 button {
-    padding: 0;
     border: none;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
     cursor: pointer;
 }
 
-:root {
-    --hover-primary-color: #2342c0;
-    --hover-secondary-color: #5028c6;
-}
-
-.bottons-box {
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    grid-auto-rows: 60px;
-}
-
-.buttons {
-}
-.buttons__button {
-    width: 189px;
+.button {
+    display: inline-block;
     height: 48px;
     border-radius: 8px;
     color: var(--white);
     font-weight: 500;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.button[disabled] {
+    pointer-events: none;
 }
 
 /* primary buttons */
 
-.buttons__button_primary {
+.button_primary {
     background-color: var(--primary);
 }
-.buttons__button_primary_disabled {
-    background-color: var(--primary);
-    opacity: 0.5;
-}
-.buttons__button_primary_hover {
+.button_primary_hover {
     background-color: var(--hover-primary-color);
 }
 
 /* secondary buttons */
 
-.buttons__button_secondary {
+.button_secondary {
     background-color: var(--secondary);
 }
-.buttons__button_secondary_hover {
+.button_secondary_hover {
     background-color: var(--hover-secondary-color);
-}
-.buttons__button_secondary_disabled {
-    background-color: var(--secondary);
-    opacity: 0.5;
 }
 
 /* alternate buttons */
 
-.buttons__button_alternate {
+.button_alternate {
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     background-color: var(--white);
     color: var(--grey-4);
 }
-.buttons__button_alternate_hover {
+.button_alternate_hover {
     border: 1px solid var(--black);
-}
-.buttons__button_alternate_disabled {
-    opacity: 0.5;
 }
