@@ -4,17 +4,14 @@
 }
 
 .page__header {
-    position: relative;
     height: 237px;
+    padding: 96px 0 0 160px;
 }
 
 .header__text {
-    position: absolute;
     font-weight: 500;
     font-size: 50px;
     line-height: 64px;
-    top: 96px;
-    left: 160px;
     color: var(--black);
 }
 
