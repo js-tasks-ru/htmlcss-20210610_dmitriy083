@@ -1,0 +1,44 @@
+.page {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page__header {
+    height: 237px;
+    padding: 96px 0 0 160px;
+}
+
+.header__text {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    color: var(--black);
+}
+
+.page__main {
+    height: 1035px;
+    background-color: #f9fafc;
+}
+
+.page__footer {
+    height: 383px;
+}
+
+.footer__text_header {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+.footer__text_main {
+    width: 640px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer__text {
+    margin-top: 71px;
+    text-align: center;
+    color: var(--black);
+}
