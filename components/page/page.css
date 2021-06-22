@@ -1,0 +1,8 @@
+.page {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page__main {
+    background-color: #f9fafc;
+}
