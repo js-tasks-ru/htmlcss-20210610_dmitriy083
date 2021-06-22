@@ -13,7 +13,7 @@
 }
 
 .histogram__leftBoxText {
-    padding-right: 100px;
+    margin-right: 80px;
 }
 .histogram__text_totalOrder {
     font-family: 'Inter-Medium', sans-serif;
@@ -34,10 +34,16 @@
 }
 .histogram__columns {
     display: flex;
+    justify-content: space-between;
+    height: 50px;
 }
 .histogram__column {
     width: 9px;
-    height: 50px;
     background-color: var(--blue-1);
-    margin: 1px;
+    margin-right: 1px;
+    margin-top: auto;
+}
+
+.histogram__column:last-child {
+    margin-right: 0;
 }

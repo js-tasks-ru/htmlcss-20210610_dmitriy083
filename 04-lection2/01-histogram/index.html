@@ -52,4 +52,14 @@
             </div>
         </div>
     </body>
+    <script>
+        const columnsContainer =
+            document.getElementsByClassName('histogram__columns')[0];
+        const columns =
+            columnsContainer.getElementsByClassName('histogram__column');
+
+        [...columns].forEach((column) => {
+            column.style.height = `${Math.floor(Math.random() * 100) + 1}%`;
+        });
+    </script>
 </html>
