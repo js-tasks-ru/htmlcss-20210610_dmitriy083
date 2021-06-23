@@ -1,0 +1,47 @@
+.skeleton__body {
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px 32px 24px 16px;
+    width: fit-content;
+}
+
+.skeleton__header {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.skeleton__logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--grey-2);
+}
+
+.skeleton__textContent {
+    height: 20px;
+    margin: 0 0 8px 8px;
+    background: linear-gradient(
+        92.51deg,
+        #dde2e5 6.44%,
+        #e2e6e8 38.47%,
+        #f3f5f5 56.48%,
+        #e3e7ea 77.5%,
+        #dde2e5 102.52%
+    );
+}
+
+.skeleton__headerTextTop {
+    width: 172px;
+}
+
+.skeleton__headerTextDown {
+    width: 257px;
+}
+
+.skeleton__itemMainContent {
+    width: 515px;
+}
+
+.skeleton__itemMainContent:last-child {
+    margin-bottom: 0;
+}
