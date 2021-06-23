@@ -17,7 +17,7 @@
     background-color: var(--grey-2);
 }
 
-.textContent {
+.skeleton__textContent {
     height: 20px;
     margin: 8px;
     background: linear-gradient(
@@ -30,18 +30,18 @@
     );
 }
 
-.textContent_headerTop {
+.skeleton__headerTextTop {
     width: 172px;
 }
 
-.textContent_headerDown {
+.skeleton__headerTextDown {
     width: 257px;
 }
 
-.mainContent_item {
+.skeleton__itemMainContent {
     width: 515px;
 }
 
-.mainContent_item:last-child {
+.skeleton__itemMainContent:last-child {
     margin-bottom: 0;
 }
