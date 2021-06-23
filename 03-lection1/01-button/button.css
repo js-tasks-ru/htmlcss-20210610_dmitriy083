@@ -20,7 +20,7 @@
 .button_primary {
     background-color: var(--primary);
 }
-.button_primary_hover {
+.button_primary:hover {
     background-color: var(--hover-primary-color);
 }
 
@@ -29,7 +29,7 @@
 .button_secondary {
     background-color: var(--secondary);
 }
-.button_secondary_hover {
+.button_secondary:hover {
     background-color: var(--hover-secondary-color);
 }
 
@@ -41,6 +41,6 @@
     background-color: var(--white);
     color: var(--grey-4);
 }
-.button_alternate_hover {
+.button_alternate:hover {
     border: 1px solid var(--black);
 }
