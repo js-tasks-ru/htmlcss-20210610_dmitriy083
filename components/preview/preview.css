@@ -10,5 +10,5 @@
     height: 367px;
     box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
-    background: blue;
+    background: var(--white);
 }
