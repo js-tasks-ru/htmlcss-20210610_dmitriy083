@@ -19,7 +19,7 @@
 
 .skeleton__textContent {
     height: 20px;
-    margin: 8px;
+    margin: 0 0 8px 8px;
     background: linear-gradient(
         92.51deg,
         #dde2e5 6.44%,
