@@ -15,20 +15,19 @@
 .histogram__leftBoxText {
     margin-right: 80px;
 }
-.histogram__text_totalOrder {
+.histogram__totalOrder {
     font-family: 'Inter-Medium', sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: var(--black);
 }
-.histogram__text_totalOrderNumber {
+.histogram__totalOrderNumber {
     font-size: 20px;
     line-height: 24px;
     color: var(--black);
 }
-.histogram__rightBoxText {
-}
-.histogram__text_linkViewAll {
+
+.histogram__linkViewAll {
     text-decoration: none;
     color: var(--blue-1);
 }
