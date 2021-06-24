@@ -38,8 +38,7 @@
     height: 50px;
 }
 .histogram__column {
-    width: 10%;
-    flex-grow: 1;
+    flex-basis: 10%;
     background-color: var(--primary);
     margin-top: auto;
 }
