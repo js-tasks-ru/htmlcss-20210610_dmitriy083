@@ -10,7 +10,7 @@
 .tooltip__menu {
     position: absolute;
     width: 129px;
-    background: #4263eb;
+    background: var(--primary);
     color: var(--grey-2);
     border-radius: 10px;
     text-align: center;
@@ -24,9 +24,9 @@
     content: '';
     border: 10px solid transparent;
     position: absolute;
-    left: 42%;
-    border-top: 6px solid #4263eb;
-    transform: translateY(44px);
+    left: 50%;
+    border-top: 6px solid var(--primary);
+    transform: translate(-50%, 44px);
 }
 
 .tooltip__trigger:hover > .tooltip__menu {
