@@ -33,16 +33,13 @@
 }
 .histogram__columns {
     display: flex;
+    gap: 1px;
     justify-content: space-between;
     height: 50px;
 }
 .histogram__column {
-    width: 9px;
+    width: 10%;
+    flex-grow: 1;
     background-color: var(--primary);
-    margin-right: 1px;
     margin-top: auto;
-}
-
-.histogram__column:last-child {
-    margin-right: 0;
 }
