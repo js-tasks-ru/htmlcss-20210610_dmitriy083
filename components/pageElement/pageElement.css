@@ -1,0 +1,37 @@
+.pageElement {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+.pageElement__header,
+.pageElement__main,
+.pageElement__header {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.pageElement__header,
+.pageElement__footer {
+    height: 100px;
+}
+
+.pageElement__header {
+    margin-bottom: 0 !important;
+    padding-top: 0;
+}
+
+.pageElement__main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 56px;
+}
+
+.pageElement__footer {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color: var(--grey-3);
+    line-height: 100px;
+}
