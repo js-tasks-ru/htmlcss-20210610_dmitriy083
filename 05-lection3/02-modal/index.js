@@ -1,4 +1,4 @@
-(function() {
+(function () {
     const close = document.getElementById('modal-close');
     const modal = document.getElementById('modal');
     const modalOpen = document.getElementById('modal-open');
@@ -8,7 +8,7 @@
     }
 
     modalOpen.addEventListener('click', () => {
-        modal.style.display = 'block';
+        modal.style.display = 'flex';
         document.body.overflow = 'hidden';
     });
 
