@@ -1,4 +1,12 @@
-@media screen and (min-width: 400px), (min-width: 0) {
+body {
+    background: no-repeat;
+}
+
+body {
+    background-image: url('./public/forest_400.jpg');
+}
+
+@media screen and (min-width: 400px) {
     body {
         background-image: url('./public/forest_400.jpg');
     }
