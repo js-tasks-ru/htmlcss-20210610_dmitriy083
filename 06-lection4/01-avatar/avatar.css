@@ -1,0 +1,6 @@
+.avatart__img {
+    height: 102px;
+    width: 102px;
+    object-fit: cover;
+    border-radius: 50%;
+}
