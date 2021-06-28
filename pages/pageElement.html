@@ -4,21 +4,21 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/css/main.css" />
+        <link rel="stylesheet" href="../assets/css/main.css" />
         <link
             rel="stylesheet"
-            href="./components/pageElement/pageElement.css"
+            href="../components/pageElement/pageElement.css"
         />
-        <link rel="stylesheet" href="./components/header/header.css" />
-        <link rel="stylesheet" href="./components/nav/nav.css" />
-        <link rel="stylesheet" href="./components/page/page.css" />
-        <link rel="stylesheet" href="./components/footer/footer.css" />
-        <link rel="stylesheet" href="./components/menu/menu.css" />
+        <link rel="stylesheet" href="../components/header/header.css" />
+        <link rel="stylesheet" href="../components/nav/nav.css" />
+        <link rel="stylesheet" href="../components/page/page.css" />
+        <link rel="stylesheet" href="../components/footer/footer.css" />
+        <link rel="stylesheet" href="../components/menu/menu.css" />
         <link
             rel="stylesheet"
-            href="./04-lection2/01-histogram/histogram.css"
+            href="../04-lection2/01-histogram/histogram.css"
         />
-        <link rel="stylesheet" href="./components/component/component.css" />
+        <link rel="stylesheet" href="../components/component/component.css" />
         <title>Page element</title>
     </head>
 
@@ -34,34 +34,42 @@
     <body>
         <div class="page__box">
             <div class="pageElement">
-                <header class="header__container pageElement__header">
-                    <div class="header__logo">
-                        <svg
-                            width="110"
-                            height="32"
-                            viewBox="0 0 110 32"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <rect y="1" width="30" height="30" fill="#212429" />
-                            <rect
-                                x="38"
-                                width="32"
+                <header class="header">
+                    <div class="header__container pageElement__header">
+                        <div class="header__logo">
+                            <svg
+                                width="110"
                                 height="32"
-                                rx="16"
-                                fill="#212429"
-                            />
-                            <path d="M78 0L110 32H78V0Z" fill="#212429" />
-                        </svg>
+                                viewBox="0 0 110 32"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <rect
+                                    y="1"
+                                    width="30"
+                                    height="30"
+                                    fill="#212429"
+                                />
+                                <rect
+                                    x="38"
+                                    width="32"
+                                    height="32"
+                                    rx="16"
+                                    fill="#212429"
+                                />
+                                <path d="M78 0L110 32H78V0Z" fill="#212429" />
+                            </svg>
+                        </div>
+                        <nav class="nav">
+                            <a href="" class="nav__link nav__link_active"
+                                >Components</a
+                            >
+                            <a href="" class="nav__link">About</a>
+                            <a href="" class="nav__link">Contact</a>
+                        </nav>
                     </div>
-                    <nav class="nav">
-                        <a href="" class="nav__link nav__link_active"
-                            >Components</a
-                        >
-                        <a href="" class="nav__link">About</a>
-                        <a href="" class="nav__link">Contact</a>
-                    </nav>
                 </header>
+
                 <main class="pageElement__main">
                     <div class="menu">
                         <div class="menu__title">Components</div>

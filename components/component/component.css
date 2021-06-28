@@ -1,0 +1,19 @@
+.component {
+    padding: 32px 48px;
+    box-sizing: border-box;
+    background: var(--white);
+}
+.component__name {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 62px;
+}
+.component__view {
+}
+.component__codeContainer {
+}
+.component__htmlCode {
+}
+.component__cssCode {
+}

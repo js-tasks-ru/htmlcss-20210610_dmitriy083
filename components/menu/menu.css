@@ -1,0 +1,31 @@
+.menu__title,
+.menu__linkComponent {
+    font-family: 'Inter', sans-serif;
+}
+
+.menu__title {
+    margin-bottom: 10%;
+    font-weight: 600;
+}
+.menu__linkComponent {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 14px;
+    color: var(--black);
+}
+
+.menu__linkComponent:hover {
+    color: var(--primary);
+}
+
+.menu__linkComponent_active,
+.menu__linkComponent_active:hover {
+    color: var(--red);
+}
+
+.menu__linkComponent_mainPage {
+    margin-top: 10%;
+    font-weight: 500;
+}
