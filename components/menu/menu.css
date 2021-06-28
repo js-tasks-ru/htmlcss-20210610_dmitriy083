@@ -16,12 +16,13 @@
     color: var(--black);
 }
 
-.menu__linkComponent_active {
-    color: var(--red) !important;
-}
-
 .menu__linkComponent:hover {
     color: var(--primary);
+}
+
+.menu__linkComponent_active,
+.menu__linkComponent_active:hover {
+    color: var(--red);
 }
 
 .menu__linkComponent_mainPage {
