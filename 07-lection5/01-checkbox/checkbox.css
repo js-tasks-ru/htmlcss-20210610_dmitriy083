@@ -9,10 +9,6 @@
     position: absolute;
 }
 
-.checkbox__input:disabled {
-    pointer-events: none;
-}
-
 .checkbox__state {
     display: flex;
     align-items: center;
@@ -53,13 +49,8 @@
     content: 'Checked';
 }
 
-.checkbox__input:disabled ~ .checkbox__state .checkbox__icon {
-    display: block;
-    width: inherit;
-    height: inherit;
-    color: var(--grey-2);
+.checkbox__input:disabled ~ .checkbox__state .checkbox__control {
     background: var(--grey-2);
-    border-radius: 4px;
 }
 
 .checkbox__input:disabled ~ .checkbox__state .checkbox__legend:before {
