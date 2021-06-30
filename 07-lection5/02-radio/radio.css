@@ -50,6 +50,10 @@
     display: block;
 }
 
+.radioBtn__input:checked ~ .radioBtn__state .radioBtn__legend:before {
+    content: 'Selected';
+}
+
 .radioBtn__input:disabled ~ .radioBtn__state .radioBtn__icon {
     display: block;
     width: inherit;
@@ -57,7 +61,8 @@
     background: var(--grey-2);
 }
 
-.radioBtn__input:disabled ~ .radioBtn__state .radioBtn__legend {
+.radioBtn__input:disabled ~ .radioBtn__state .radioBtn__legend:before {
+    content: 'Disabled';
     color: var(--grey-2);
 }
 
@@ -65,4 +70,8 @@
     font-family: 'Inter', sans-serif;
     color: var(--grey-4);
     user-select: none;
+}
+
+.radioBtn__legend:before {
+    content: 'Default';
 }
