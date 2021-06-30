@@ -36,6 +36,10 @@
     user-select: none;
 }
 
+.checkbox__legend:before {
+    content: 'Default';
+}
+
 .checkbox__input:checked ~ .checkbox__state .checkbox__control {
     background: var(--blue);
     border-color: var(--blue);
@@ -43,6 +47,10 @@
 
 .checkbox__input:checked ~ .checkbox__state .checkbox__icon {
     display: block;
+}
+
+.checkbox__input:checked ~ .checkbox__state .checkbox__legend:before {
+    content: 'Checked';
 }
 
 .checkbox__input:disabled ~ .checkbox__state .checkbox__icon {
@@ -54,7 +62,8 @@
     border-radius: 4px;
 }
 
-.checkbox__input:disabled ~ .checkbox__state .checkbox__legend {
+.checkbox__input:disabled ~ .checkbox__state .checkbox__legend:before {
+    content: 'Disabled';
     color: var(--grey-2);
 }
 
