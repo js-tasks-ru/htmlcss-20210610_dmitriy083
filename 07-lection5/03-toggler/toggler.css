@@ -49,7 +49,8 @@
 }
 .toggler__input:checked ~ .toggler__state .toggler__icon {
     background: var(--white);
-    left: 25px;
+    left: auto;
+    right: 1px;
 }
 .toggler__legend {
     font-family: 'Inter', sans-serif;
