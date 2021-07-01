@@ -1,5 +1,8 @@
 .input {
     display: inline-block;
+}
+.input__container {
+    display: inline-block;
     position: relative;
 }
 .input__text {
