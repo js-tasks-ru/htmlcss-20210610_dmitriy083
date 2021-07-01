@@ -2,10 +2,22 @@
 <!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
+        <link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="./input.css" />
     </head>
     <body>
-
+        <div class="input">
+            <input type="text" class="input__text" />
+            <svg class="input__checkMarkInput" style="display: none">
+                <use
+                    xlink:href="../../assets/images/sprites.svg#checkMarkInput"
+                ></use>
+            </svg>
+            <svg class="input__checkError">
+                <use
+                    xlink:href="../../assets/images/sprites.svg#checkError"
+                ></use>
+            </svg>
+        </div>
     </body>
 </html>

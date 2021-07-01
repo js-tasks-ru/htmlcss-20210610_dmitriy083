@@ -1,0 +1,32 @@
+.input {
+    display: inline-block;
+    position: relative;
+}
+.input__text {
+    width: 350px;
+    height: 56px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    box-sizing: border-box;
+    border: 1px solid var(--grey-2);
+    border-radius: 8px;
+    padding-left: 24px;
+    padding-right: 50px;
+    outline: none;
+}
+.input__text:focus {
+    border-color: var(--blue);
+}
+.input__checkMarkInput,
+.input__checkError {
+    display: none;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    right: 16px;
+}
+.input__text_invalid {
+    border-color: var(--error);
+}
