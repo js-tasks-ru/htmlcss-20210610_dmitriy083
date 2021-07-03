@@ -1,3 +1,7 @@
+.nav_min {
+    display: none;
+}
+
 .nav__link {
     text-decoration: none;
     margin-right: 24px;
@@ -12,4 +16,17 @@
 
 .nav__link_active {
     color: var(--black);
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav_min {
+        display: block;
+        margin-top: 40px;
+    }
 }

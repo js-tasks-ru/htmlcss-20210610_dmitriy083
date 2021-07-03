@@ -4,3 +4,7 @@
     object-fit: cover;
     border-radius: 50%;
 }
+.avatar__img_preview {
+    height: 160px;
+    width: 160px;
+}
