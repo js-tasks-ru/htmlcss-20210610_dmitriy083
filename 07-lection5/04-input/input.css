@@ -30,6 +30,16 @@
     top: 16px;
     right: 16px;
 }
-.input__text_invalid {
+.input__text_invalid,
+.input__text_invalid:focus {
     border-color: var(--error);
+}
+.input__checkMarkInput_enabled,
+.input__checkMarkInput_enabled:focus {
+    border-color: var(--blue);
+}
+
+.input__checkError_enabled,
+.input__checkMarkInput_enabled {
+    display: block;
 }
