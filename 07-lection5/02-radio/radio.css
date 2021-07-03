@@ -10,7 +10,7 @@
     position: absolute;
 }
 
-.radioBtn__input:disabled {
+.radioBtn__input:disabled ~ .radioBtn__state {
     pointer-events: none;
 }
 
