@@ -1,11 +1,24 @@
 .input {
     display: inline-block;
 }
+.input_success .input__icon-success {
+    display: block;
+}
+.input_success .input__field {
+    border-color: var(--blue);
+}
+.input_error .input__icon-error {
+    display: block;
+}
+.input_error .input__field,
+.input_error .input__field:focus {
+    border-color: var(--error);
+}
 .input__container {
     display: inline-block;
     position: relative;
 }
-.input__text {
+.input__field {
     width: 350px;
     height: 56px;
     font-family: 'Inter', sans-serif;
@@ -18,28 +31,15 @@
     padding-right: 50px;
     outline: none;
 }
-.input__text:focus {
+.input__field:focus {
     border-color: var(--blue);
 }
-.input__checkMarkInput,
-.input__checkError {
+.input__icon-success,
+.input__icon-error {
     display: none;
     position: absolute;
     width: 24px;
     height: 24px;
     top: 16px;
     right: 16px;
-}
-.input__text_invalid,
-.input__text_invalid:focus {
-    border-color: var(--error);
-}
-.input__checkMarkInput_enabled,
-.input__checkMarkInput_enabled:focus {
-    border-color: var(--blue);
-}
-
-.input__checkError_enabled,
-.input__checkMarkInput_enabled {
-    display: block;
 }
