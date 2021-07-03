@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+.calendar_min {
+    padding: 10px;
+    max-width: 227px;
+}
 .calendar__title {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
