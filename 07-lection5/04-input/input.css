@@ -4,15 +4,15 @@
 .input_success .input__icon-success {
     display: block;
 }
-.input_success .input__field {
-    border-color: var(--blue);
-}
 .input_error .input__icon-error {
     display: block;
 }
 .input_error .input__field,
 .input_error .input__field:focus {
     border-color: var(--error);
+}
+.input_focus .input__field {
+    border-color: var(--blue);
 }
 .input__container {
     display: inline-block;
