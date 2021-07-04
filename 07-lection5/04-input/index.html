@@ -2,10 +2,73 @@
 <!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
+        <link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="./input.css" />
     </head>
     <body>
-
+        <div class="input">
+            <div class="input__container">
+                <input
+                    type="text"
+                    class="input__field"
+                    placeholder="Placeholder"
+                />
+                <svg class="input__icon-success">
+                    <use
+                        xlink:href="../../assets/images/sprites.svg#checkMarkInput"
+                    ></use>
+                </svg>
+                <svg class="input__icon-error">
+                    <use
+                        xlink:href="../../assets/images/sprites.svg#checkError"
+                    ></use>
+                </svg>
+            </div>
+        </div>
+        <div class="input input_success">
+            <div class="input__container">
+                <input type="text" class="input__field" value="Success" />
+                <svg class="input__icon-success">
+                    <use
+                        xlink:href="../../assets/images/sprites.svg#checkMarkInput"
+                    ></use>
+                </svg>
+                <svg class="input__icon-error">
+                    <use
+                        xlink:href="../../assets/images/sprites.svg#checkError"
+                    ></use>
+                </svg>
+            </div>
+        </div>
+        <div class="input input_error">
+            <div class="input__container">
+                <input type="text" class="input__field" value="Error" />
+                <svg class="input__icon-success">
+                    <use
+                        xlink:href="../../assets/images/sprites.svg#checkMarkInput"
+                    ></use>
+                </svg>
+                <svg class="input__icon-error">
+                    <use
+                        xlink:href="../../assets/images/sprites.svg#checkError"
+                    ></use>
+                </svg>
+            </div>
+        </div>
+        <div class="input input_focus">
+            <div class="input__container">
+                <input type="text" class="input__field" value="Focus" />
+                <svg class="input__icon-success">
+                    <use
+                        xlink:href="../../assets/images/sprites.svg#checkMarkInput"
+                    ></use>
+                </svg>
+                <svg class="input__icon-error">
+                    <use
+                        xlink:href="../../assets/images/sprites.svg#checkError"
+                    ></use>
+                </svg>
+            </div>
+        </div>
     </body>
 </html>
