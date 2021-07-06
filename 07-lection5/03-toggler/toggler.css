@@ -19,15 +19,12 @@
 }
 .toggler__input:disabled ~ .toggler__state .toggler__legend:before {
     color: var(--grey-2);
-    content: 'Disabled';
 }
 .toggler__input:checked ~ .toggler__state .toggler__slider {
     background: var(--blue);
     border-color: var(--blue);
 }
-.toggler__input:checked ~ .toggler__state .toggler__legend:before {
-    content: 'On';
-}
+
 .toggler__state {
     display: flex;
     align-items: center;
@@ -60,7 +57,4 @@
     color: var(--grey-4);
     margin-left: 12px;
     user-select: none;
-}
-.toggler__legend:before {
-    content: 'Off';
 }
