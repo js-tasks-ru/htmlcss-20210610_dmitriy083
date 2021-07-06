@@ -1,8 +1,19 @@
 .header__container {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
+}
+
+.header__icon-burgerMenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
 
 .header__title {
@@ -23,5 +34,11 @@
 @media screen and (max-width: 768px) {
     .header__container {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__icon-burgerMenu {
+        display: block;
     }
 }
