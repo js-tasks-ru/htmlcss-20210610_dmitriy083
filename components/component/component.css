@@ -7,13 +7,25 @@
     font-family: 'Inter', sans-serif;
     font-size: 28px;
     line-height: 38px;
-    margin-bottom: 62px;
+    margin-bottom: 20px;
 }
-.component__view {
+
+.component__view_tooltip {
+    margin-top: 75px;
+    margin-left: 33px;
 }
-.component__codeContainer {
+
+.component__view_grid-checkbox {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+    grid-gap: 2em;
 }
-.component__htmlCode {
-}
-.component__cssCode {
+
+.component__view_input-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 30px;
 }

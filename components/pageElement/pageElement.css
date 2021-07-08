@@ -23,8 +23,7 @@
 
 .pageElement__main {
     display: grid;
-    grid-template-columns: auto 1fr;
-    grid-gap: 56px;
+    grid-template-columns: 285px 1fr;
 }
 
 .pageElement__footer {
@@ -34,4 +33,10 @@
     font-family: 'Inter', sans-serif;
     color: var(--grey-3);
     line-height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
 }
