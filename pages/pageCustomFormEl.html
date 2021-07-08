@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="../components/footer/footer.css" />
         <link rel="stylesheet" href="../components/menu/menu.css" />
         <link rel="stylesheet" href="../components/component/component.css" />
+        <link rel="stylesheet" href="../components/menu-modal/menu-modal.css" />
         <link rel="stylesheet" href="../05-lection3/01-tooltip/tooltip.css" />
         <link rel="stylesheet" href="../07-lection5/01-checkbox/checkbox.css" />
         <link rel="stylesheet" href="../07-lection5/02-radio/radio.css" />
@@ -69,6 +70,74 @@
                 </header>
 
                 <main class="pageElement__main">
+                    <div class="menu-modal">
+                        <div class="menu-modal__background">
+                            <div class="menu-modal__container">
+                                <div class="menu-modal__headerContainer">
+                                    <svg class="menu-modal__icon-cross">
+                                        <use
+                                            xlink:href="../../assets/images/sprites.svg#icon-cross"
+                                        ></use>
+                                    </svg>
+                                    <a href="../../index.html">
+                                        <svg class="menu-modal__headerIcon">
+                                            <use
+                                                xlink:href="../../assets/images/sprites.svg#header-icon"
+                                            ></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="menu-modal__switchTheme">
+                                    <span class="menu-modal__switchThemeText"
+                                        >Dark theme</span
+                                    >
+                                    <div class="menu-modal__switchThemeBtn">
+                                        <label class="toggler">
+                                            <input type="checkbox" class="toggler__input" />
+                                            <div class="toggler__state">
+                                                <div class="toggler__slider">
+                                                    <div class="toggler__icon"></div>
+                                                </div>
+                                                <div class="toggler__legend"></div>
+                                            </div>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="menu-modal__elementsContainer">
+                                    <div class="menu-modal__titleNameElements">
+                                        Elements
+                                    </div>
+                                    <nav class="menu-modal__linksContainer">
+                                        <a href="" class="menu-modal__linkElement"
+                                            >Avatart</a
+                                        >
+                                        <a href="" class="menu-modal__linkElement"
+                                            >Custom form element</a
+                                        >
+                                        <a href="" class="menu-modal__linkElement"
+                                            >Button</a
+                                        >
+                                        <a
+                                            href="../../pages/pageHistogram.html"
+                                            class="menu-modal__linkElement"
+                                            >Histogram</a
+                                        >
+                                        <a href="" class="menu-modal__linkElement"
+                                            >Tooltip</a
+                                        >
+                                        <a href="" class="menu-modal__linkElement"
+                                            >Calendar</a
+                                        >
+                                    </nav>
+                                </div>
+                                <div class="menu-modal__elementsContainer">
+                                    <div class="menu-modal__titleNameElements">
+                                        Containers
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="menu">
                         <div class="menu__title">Components</div>
                         <nav class="menu__linksComponents">
@@ -267,6 +336,6 @@
             </div>
             </div>
         </div>
-        
+        <script src="../components/menu-modal/menu-modal.js"></script>
     </body>
 </html>

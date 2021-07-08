@@ -4,12 +4,13 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
+    box-sizing: border-box;
 }
 
 .header__icon-burgerMenu {
     display: none;
     position: absolute;
-    left: 0;
+    left: 10px;
     top: 7px;
     width: 24px;
     height: 24px;

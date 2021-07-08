@@ -5,11 +5,22 @@ body {
 }
 
 .menu-modal {
+    z-index: -1;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
     width: 100%;
     height: 100%;
+    transition: all 400ms;
 }
 
-.menu-modal__background {
+.menu-modal[data-open] {
+    z-index: 99;
+    opacity: 100;
+}
+
+.menu-modal .menu-modal__background {
     width: 100%;
     height: 100%;
     background: rgba(196, 196, 196, 0.4);
@@ -20,7 +31,7 @@ body {
     height: 100%;
     width: 375px;
     background: var(--grey-1);
-    padding: 16px;
+    padding: 10px 16px;
     box-sizing: border-box;
 }
 

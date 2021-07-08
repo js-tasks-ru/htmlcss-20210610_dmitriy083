@@ -23,6 +23,7 @@
 .toggler__input:checked ~ .toggler__state .toggler__slider {
     background: var(--blue);
     border-color: var(--blue);
+    transition: 400ms;
 }
 
 .toggler__state {
@@ -37,6 +38,8 @@
     border: 1px solid var(--grey-2);
     border-radius: 16px;
     box-sizing: border-box;
+    background: var(--white);
+    transition: 400ms;
 }
 .toggler__icon {
     position: absolute;
@@ -46,11 +49,12 @@
     border-radius: 50%;
     left: 1px;
     top: 1px;
+    transition: 400ms;
 }
 .toggler__input:checked ~ .toggler__state .toggler__icon {
     background: var(--white);
-    left: auto;
-    right: 1px;
+    left: 25px;
+    transition: 400ms;
 }
 .toggler__legend {
     font-family: 'Inter', sans-serif;
