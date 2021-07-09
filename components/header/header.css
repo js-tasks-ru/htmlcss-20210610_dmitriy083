@@ -1,8 +1,20 @@
 .header__container {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.header__icon-burgerMenu {
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
 
 .header__title {
@@ -10,4 +22,24 @@
     font-size: 50px;
     line-height: 64px;
     color: var(--black);
+}
+
+@media screen and (max-width: 768px) {
+    .header__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__container {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__icon-burgerMenu {
+        display: block;
+    }
 }

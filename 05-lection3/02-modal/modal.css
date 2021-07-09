@@ -13,7 +13,7 @@
 
 .modal__content {
     position: relative;
-    width: 428px;
+    max-width: 428px;
     padding: 30px 40px;
     background: var(--white);
     border-radius: 8px;
@@ -40,4 +40,16 @@
 
 .modal__text {
     line-height: 24px;
+}
+
+.modal_preview {
+    position: inherit;
+    display: inherit;
+    width: 80%;
+    height: 80%;
+}
+
+.modal__content_preview {
+    width: 60%;
+    height: 60%;
 }

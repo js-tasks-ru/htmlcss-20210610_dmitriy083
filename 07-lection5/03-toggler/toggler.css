@@ -19,15 +19,13 @@
 }
 .toggler__input:disabled ~ .toggler__state .toggler__legend:before {
     color: var(--grey-2);
-    content: 'Disabled';
 }
 .toggler__input:checked ~ .toggler__state .toggler__slider {
     background: var(--blue);
     border-color: var(--blue);
+    transition: 400ms;
 }
-.toggler__input:checked ~ .toggler__state .toggler__legend:before {
-    content: 'On';
-}
+
 .toggler__state {
     display: flex;
     align-items: center;
@@ -40,6 +38,8 @@
     border: 1px solid var(--grey-2);
     border-radius: 16px;
     box-sizing: border-box;
+    background: var(--white);
+    transition: 400ms;
 }
 .toggler__icon {
     position: absolute;
@@ -49,18 +49,16 @@
     border-radius: 50%;
     left: 1px;
     top: 1px;
+    transition: 400ms;
 }
 .toggler__input:checked ~ .toggler__state .toggler__icon {
     background: var(--white);
-    left: auto;
-    right: 1px;
+    transform: translateX(24px);
+    transition: 400ms;
 }
 .toggler__legend {
     font-family: 'Inter', sans-serif;
     color: var(--grey-4);
     margin-left: 12px;
     user-select: none;
-}
-.toggler__legend:before {
-    content: 'Off';
 }

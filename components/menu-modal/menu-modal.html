@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../assets/css/main.css" />
+        <link
+            rel="stylesheet"
+            href="../../07-lection5/03-toggler/toggler.css"
+        />
+        <link rel="stylesheet" href="./menu-modal.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="menu-modal">
+            <div class="menu-modal__background">
+                <div class="menu-modal__container">
+                    <div class="menu-modal__headerContainer">
+                        <svg class="menu-modal__icon-cross">
+                            <use
+                                xlink:href="../../assets/images/sprites.svg#icon-cross"
+                            ></use>
+                        </svg>
+                        <a href="../../index.html">
+                            <svg class="menu-modal__headerIcon">
+                                <use
+                                    xlink:href="../../assets/images/sprites.svg#header-icon"
+                                ></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="menu-modal__switchTheme">
+                        <span class="menu-modal__switchThemeText"
+                            >Dark theme</span
+                        >
+                        <div class="menu-modal__switchThemeBtn">
+                            <label class="toggler">
+                                <input type="checkbox" class="toggler__input" />
+                                <div class="toggler__state">
+                                    <div class="toggler__slider">
+                                        <div class="toggler__icon"></div>
+                                    </div>
+                                    <div class="toggler__legend"></div>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="menu-modal__elementsContainer">
+                        <div class="menu-modal__titleNameElements">
+                            Elements
+                        </div>
+                        <nav class="menu-modal__linksContainer">
+                            <a href="" class="menu-modal__linkElement"
+                                >Avatart</a
+                            >
+                            <a href="" class="menu-modal__linkElement"
+                                >Custom form element</a
+                            >
+                            <a href="" class="menu-modal__linkElement"
+                                >Button</a
+                            >
+                            <a
+                                href="../../pages/pageHistogram.html"
+                                class="menu-modal__linkElement"
+                                >Histogram</a
+                            >
+                            <a href="" class="menu-modal__linkElement"
+                                >Tooltip</a
+                            >
+                            <a href="" class="menu-modal__linkElement"
+                                >Calendar</a
+                            >
+                        </nav>
+                    </div>
+                    <div class="menu-modal__elementsContainer">
+                        <div class="menu-modal__titleNameElements">
+                            Containers
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const toggler__input =
+                document.getElementsByClassName('toggler__input')[0];
+            const menu_modal__switchThemeText = document.getElementsByClassName(
+                'menu-modal__switchThemeText',
+            )[0];
+            toggler__input.addEventListener('click', () => {
+                menu_modal__switchThemeText.innerText = toggler__input.checked
+                    ? 'Light theme'
+                    : 'Dark theme';
+            });
+        </script>
+    </body>
+</html>

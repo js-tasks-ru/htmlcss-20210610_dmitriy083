@@ -5,8 +5,13 @@
     border-radius: 8px;
     padding: 28px 36px;
     text-align: center;
+    box-sizing: border-box;
 }
 
+.calendar_min {
+    padding: 10px;
+    max-width: 227px;
+}
 .calendar__title {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
