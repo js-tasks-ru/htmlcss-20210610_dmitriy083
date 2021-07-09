@@ -17,6 +17,8 @@
     border-radius: 12px;
     background: var(--white);
     box-sizing: border-box;
+    text-decoration: none;
+    color: var(--black);
 }
 
 .preview__card-content {

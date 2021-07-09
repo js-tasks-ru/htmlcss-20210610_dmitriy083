@@ -53,7 +53,7 @@
 }
 .toggler__input:checked ~ .toggler__state .toggler__icon {
     background: var(--white);
-    left: 25px;
+    transform: translateX(24px);
     transition: 400ms;
 }
 .toggler__legend {

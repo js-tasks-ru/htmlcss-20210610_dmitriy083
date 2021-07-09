@@ -4,6 +4,11 @@ body {
     height: 100%;
 }
 
+body[data-open] {
+    overflow-y: scroll;
+    position: fixed;
+}
+
 .menu-modal {
     z-index: -1;
     opacity: 0;
@@ -16,14 +21,15 @@ body {
 }
 
 .menu-modal[data-open] {
-    z-index: 99;
+    z-index: 999;
     opacity: 100;
 }
 
-.menu-modal .menu-modal__background {
+.menu-modal__background {
     width: 100%;
     height: 100%;
     background: rgba(196, 196, 196, 0.4);
+    z-index: 999;
 }
 
 .menu-modal__container {
@@ -33,6 +39,7 @@ body {
     background: var(--grey-1);
     padding: 10px 16px;
     box-sizing: border-box;
+    overflow-y: auto;
 }
 
 .menu-modal__headerContainer {
@@ -90,6 +97,7 @@ body {
 }
 
 .menu-modal__linkElement {
+    display: inline-block;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     color: var(--black);

@@ -29,89 +29,106 @@
     </style>
 
     <body>
-        <div class="page__box">
-            <div class="pageElement">
-                <header class="header">
-                    <div class="header__container pageElement__header">
-                        <div class="header__logo">
-                            <svg
-                                width="110"
-                                height="32"
-                                viewBox="0 0 110 32"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <rect
-                                    y="1"
-                                    width="30"
-                                    height="30"
-                                    fill="#212429"
-                                />
-                                <rect
-                                    x="38"
-                                    width="32"
+        <div class="page">
+            <div class="page__box">
+                <div class="pageElement">
+                    <header class="header">
+                        <div class="header__container">
+                            <div class="header__logo">
+                                <svg
+                                    width="110"
                                     height="32"
-                                    rx="16"
-                                    fill="#212429"
-                                />
-                                <path d="M78 0L110 32H78V0Z" fill="#212429" />
-                            </svg>
+                                    viewBox="0 0 110 32"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect
+                                        y="1"
+                                        width="30"
+                                        height="30"
+                                        fill="#212429"
+                                    />
+                                    <rect
+                                        x="38"
+                                        width="32"
+                                        height="32"
+                                        rx="16"
+                                        fill="#212429"
+                                    />
+                                    <path
+                                        d="M78 0L110 32H78V0Z"
+                                        fill="#212429"
+                                    />
+                                </svg>
+                            </div>
                         </div>
-                    </div>
-                </header>
-
-                <main class="pageElement__main">
-                    <div class="menu">
-                        <div class="menu__title">Components</div>
-                        <nav class="menu__linksComponents">
-                            <a href="#" class="menu__linkComponent">Modal</a
-                            ><a href="#" class="menu__linkComponent">Tooltip</a
-                            ><a href="#" class="menu__linkComponent">Avatar</a
-                            ><a
-                                href="#"
-                                class="
-                                    menu__linkComponent
-                                    menu__linkComponent_active
-                                "
-                                >Calendar</a
-                            ><a href="#" class="menu__linkComponent"
-                                >Histogram</a
-                            ><a href="#" class="menu__linkComponent"
-                                >Custom from elements</a
-                            ><a
-                                href="#"
-                                class="
-                                    menu__linkComponent
-                                    menu__linkComponent_mainPage
-                                "
-                                >Main page</a
-                            >
-                        </nav>
-                    </div>
-                    <div class="component">
-                        <div class="component__name">Calendar</div>
-                        <div class="component__view">
-                            <a
-                                class="avatart"
-                                href="../06-lection4/01-avatar/img/avatart.jpg"
-                                target="_blank"
-                            >
-                                <img
-                                    class="avatart__img"
-                                    src="../06-lection4/01-avatar/img/avatart.jpg"
-                                    alt="avatart"
-                                />
-                            </a>
+                    </header>
+                    <main class="pageElement__main">
+                        <div class="menu">
+                            <div class="menu__title">Components</div>
+                            <nav class="menu__linksComponents">
+                                <a
+                                    href="../pages/pageModal.html"
+                                    class="menu__linkComponent"
+                                    >Modal</a
+                                ><a
+                                    href="../pages/pageTooltip.html"
+                                    class="menu__linkComponent"
+                                    >Tooltip</a
+                                ><a
+                                    href="../pages/pageAvatar.html"
+                                    class="
+                                        menu__linkComponent
+                                        menu__linkComponent_active
+                                    "
+                                    >Avatar</a
+                                ><a
+                                    href="../pages/pageCalendar.html"
+                                    class="menu__linkComponent"
+                                    >Calendar</a
+                                ><a
+                                    href="../pages/pageHistogram.html"
+                                    class="menu__linkComponent"
+                                    >Histogram</a
+                                ><a
+                                    href="../pages/pageCustomFormEl.html"
+                                    class="menu__linkComponent"
+                                    >Custom from elements</a
+                                ><a
+                                    href="../index.html"
+                                    class="
+                                        menu__linkComponent
+                                        menu__linkComponent_mainPage
+                                    "
+                                    >Main page</a
+                                >
+                            </nav>
                         </div>
-                        <div class="component__codeContainer">
-                            <div class="component__htmlCode"></div>
-                            <div class="component__cssCode"></div>
+                        <div class="component">
+                            <div class="component__name">Avatart</div>
+                            <div class="component__view">
+                                <a
+                                    class="avatart"
+                                    href="../06-lection4/01-avatar/img/avatart.jpg"
+                                    target="_blank"
+                                >
+                                    <img
+                                        class="avatart__img"
+                                        src="../06-lection4/01-avatar/img/avatart.jpg"
+                                        alt="avatart"
+                                    />
+                                </a>
+                            </div>
+                            <div class="component__codeContainer">
+                                <div class="component__htmlCode"></div>
+                                <div class="component__cssCode"></div>
+                            </div>
                         </div>
-                    </div>
-                </main>
-                <footer class="pageElement__footer">
-                    Reusable component library
-                </footer>
+                    </main>
+                    <footer class="pageElement__footer">
+                        Reusable component library
+                    </footer>
+                </div>
             </div>
         </div>
     </body>
